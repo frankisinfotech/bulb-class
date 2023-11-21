@@ -4,7 +4,7 @@ pipeline {
     environment {
         SERVICE_NAME = "bulbclass"
         ORGANIZATION_NAME = "frankisinfotech"
-        DOCKERHUB_USERNAME = "essiendaniel33"
+        DOCKERHUB_USERNAME = "frankisinfotech"
         REPOSITORY_TAG = "${DOCKERHUB_USERNAME}/${ORGANIZATION_NAME}-${SERVICE_NAME}:${BUILD_ID}"
     }
    
